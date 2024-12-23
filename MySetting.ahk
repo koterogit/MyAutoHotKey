@@ -1,3 +1,7 @@
+;----------------------------------
+; For v1.1.137 U32 AhkExe
+;----------------------------------
+
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
@@ -30,4 +34,3 @@ F13 & M::Send,{Blind}{Delete}               ;Delete
 F13 & D::Send,{Blind}{AppsKey}              ;右クリックメニュー表示
 F13 & S::Send,{Blind}{Escape}               ;Esc
 #UseHook off
-
